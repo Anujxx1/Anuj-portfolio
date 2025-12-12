@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Kashyap - System Engineer Portfolio</title>
+
+    <style>
+        :root {
+            --primary: #00aaff;
+            --background: #0d0d0d;
+            --section-bg: #111;
+            --text: #fff;
+            --muted: #bbb;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: var(--background);
+            color: var(--text);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: var(--muted);
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: var(--primary);
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* SECTIONS */
+        .section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* CARDS */
+        .card {
+            background: var(--section-bg);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 0 12px rgba(255,255,255,0.05);
+        }
+
+        /* SKILLS GRID */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-box {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .skill-box:hover {
+            background: #222;
+            transform: translateY(-5px);
+        }
+
+        /* EXPERIENCE TIMELINE */
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            border-left: 3px solid var(--primary);
+        }
+
+        .timeline-item {
+            margin-bottom: 30px;
+        }
+
+        .timeline-item h3 {
+            margin: 0;
+            color: var(--primary);
+        }
+
+        .timeline-item p {
+            color: var(--muted);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>👋 Hi, I'm <span style="color: var(--primary);">Anuj Kashyap</span></h1>
+    <p>System Engineer • Technical Support • Network Operations</p>
+    <a class="btn" href="#contact">Contact Me</a>
+    <a class="btn" href="AnujKashyap_Resume.pdf" download>Download Resume</a>
+</section>
+i
+<!-- ABOUT -->
+<section class="section">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a System Engineer with strong experience in Linux administration, CI/CD pipelines, 
+            database optimization, and real-time data platforms like Kafka.  
+            I manage 50+ Linux servers, automate workflows using Bash/Python, and improve system uptime and performance.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+
+        <div class="skill-box">Linux (RedHat, Ubuntu)</div>
+        <div class="skill-box">Docker & Kubernetes</div>
+        <div class="skill-box">Jenkins CI/CD Automation</div>
+        <div class="skill-box">AWS Cloud Services</div>
+        <div class="skill-box">MySQL, PostgreSQL</div>
+        <div class="skill-box">Networking (DNS, DHCP, VPN)</div>
+        <div class="skill-box">Kafka & Redis</div>
+        <div class="skill-box">Grafana & Prometheus</div>
+        <div class="skill-box">Shell & Python Scripting</div>
+
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section">
+    <h2>Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>NMSWORKS — Technical Support Engineer (2024–Present)</h3>
+            <p>• Managed 50+ Linux servers improving uptime by 35%</p>
+            <p>• Automated 20+ tasks using Bash (40% workload reduction)</p>
+            <p>• Built CI/CD pipelines reducing deployment time by 30%</p>
+            <p>• Optimized DB queries improving speed by 25%</p>
+            <p>• Maintained Kafka clusters processing 2M+ messages/day</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>InKnowTech — Network Support Engineer (2022–2024)</h3>
+            <p>• Reduced outages by 30% across 100+ client sites</p>
+            <p>• Delivered Tier-2 support for 200+ users</p>
+            <p>• Achieved 98% SLA compliance</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Rhythm Technologies — Network Engineer (2022)</h3>
+            <p>• Improved server availability by 15%</p>
+            <p>• Reduced DB recovery time from 2 hours to 30 minutes</p>
+            <p>• Enhanced network performance for enterprise clients</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>📞 Phone: 8433253117</p>
+        <p>📩 Email: anuj46992@gmail.com</p>
+        <p>🔗 LinkedIn: linkedin.com/in/anuj-kashyap-b198ab1b7</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 — Portfolio designed for Anuj Kashyap
+</footer>
+
+</body>
+</html>
+
